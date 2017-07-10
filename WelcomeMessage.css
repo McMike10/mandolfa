@@ -1,0 +1,86 @@
+body {
+  /* background-image: url(TestBackground.png); */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  font-family: "Verdana";
+  font-size: 4em;
+  position: relative;
+  text-align: center;
+  margin-top: -120px;
+}
+
+h2 {
+  font-family: "Arial Black";
+  color: #004F6E;
+  font-size: 1.22em;
+  position: relative;
+  text-align: center;
+  top: 15%;
+}
+
+#headers {
+  position: relative;
+  top: 150px;
+}
+
+#mainText {
+  position: relative;
+  font-size: 3vh;
+  width: 98%;
+  height: 80%;
+  font-family: "Verdana";
+}
+
+#welcomeMessage {
+  position: relative;
+  top: 1%;
+  left: 1%
+}
+
+#list {
+  position: relative;
+  top: 35vh;
+  left: 1%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ol {
+
+}
+
+#logos {
+  position: fixed;
+  bottom: 1%;
+  left: 50%;
+  margin-left: -709px;
+}
+
+.btTxtsubmit {
+  position: relative;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.btTxtsubmit:hover {
+  position: relative center;
+  margin-left: 65px;
+  margin-right: 65px;
+  opacity: 0.5;
+}
+
+#useful {
+  text-decoration: underline;
+}
